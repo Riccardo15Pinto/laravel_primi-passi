@@ -22,7 +22,7 @@ Route::get('/', function () {
     ];
 
     return view('home', $data);
-})->name($home);
+})->name('home');
 
 
 Route::get('/info', function () {
@@ -32,4 +32,4 @@ Route::get('/info', function () {
     ];
 
     return view('info', $data);
-})->name($info);
+})->name('info');
