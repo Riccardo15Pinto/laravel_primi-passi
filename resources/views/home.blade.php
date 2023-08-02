@@ -10,5 +10,7 @@
     <h3>Nome : {{$name}}</h3>
     <h3>Lavoro : {{$lavoro}}</h3>
     <h3>Mansione : {{$descrizione}}</h3>
+
+    <a href="{{ route('info') }}" >vedi foto di {{$name}}</a>
 </body>
 </html>
