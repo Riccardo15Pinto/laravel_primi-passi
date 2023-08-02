@@ -6,6 +6,9 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>ciao</h1>
+    <h1>C.V</h1>
+    <h3>Nome : {{$name}}</h3>
+    <h3>Lavoro : {{$lavoro}}</h3>
+    <h3>Mansione : {{$descrizione}}</h3>
 </body>
 </html>
