@@ -22,4 +22,14 @@ Route::get('/', function () {
     ];
 
     return view('home', $data);
-});
+})->name($home);
+
+
+Route::get('/info', function () {
+
+    $data = [
+        'path' => 'https://pbs.twimg.com/media/Ecvm9iyXYAMU69A.jpg',
+    ];
+
+    return view('info', $data);
+})->name($info);
